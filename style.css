@@ -1,0 +1,118 @@
+.topo-home {
+    height: 100vh;
+    color: #fff;
+    background-image: url(imagem/slider4.jpg);
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    border-radius: unset;
+    display: inline-block;
+}
+
+.banner-info {
+    left: 25em;
+    /* padding: 50px 20px 80px; */
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 15em
+}
+
+.banner-title{
+	font-size: 52pt !important;
+	text-transform: uppercase;
+}
+.banner-description{
+	font-size: 30pt !important;
+}
+/* DISPLAY > CARDS */
+.card{
+	height: 100vh;
+	color: #fff;
+    border-radius: none;
+    text-align: center;
+}
+.card-info{
+	position: absolute;
+        bottom: 20em;
+        left: 35em;
+	padding: 50px 20px 50px 20px;;
+    text-align: center;
+    color: #000;
+    
+}
+
+.card-title{
+	font-size: 24pt !important;
+	text-transform: uppercase;
+}
+.card-description{
+	font-size: 18pt !important;
+    width: 100%;
+    
+}
+
+/* Bloco2 */
+
+bloco2{
+    text-align: center;
+}
+
+#Areas{
+	background-image: url('imagem/slide5.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+    border-radius: unset;
+    height: 100vh;
+    color: #fff;
+}
+@media only screen and (max-device-width: 768px){
+	#Areas{
+		background-attachment: scroll;
+	}
+}
+
+/* FOOTER */
+footer{
+	background-color: #ffff;
+	color: grey;
+	/*padding: 200px 50px 50px 50px;*/
+	font-size: 16pt !important;
+	font-weight: normal;
+	font-family: 'Poiret One', cursive;
+}
+.footer{
+	text-align: center;
+	padding-top: 40px;
+}
+.footer h4{
+	font-size: 16pt !important;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.footer-left ul{
+	list-style: none;
+	text-align: center;
+	padding: inherit;
+}
+.footer-left ul li a{
+	text-decoration: none;
+	line-height: 36px;
+}
+fieldset{
+	width: min-content;
+    margin: auto;
+}

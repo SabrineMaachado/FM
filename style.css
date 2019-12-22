@@ -14,6 +14,23 @@
     border-radius: unset;
     display: inline-block;
 }
+bannercontato{
+    height: 100vh;
+    color: #fff;
+    background-image: url(imagem/slider1.jpg);
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    border-radius: unset;
+    display: inline-block;
+
+}
 
 .banner-info {
     left: 25em;

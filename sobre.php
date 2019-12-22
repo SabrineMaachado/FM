@@ -19,9 +19,9 @@
             <video autoplay=autoplay loop=loop muted nodownload preload=auto playsinline id=myVideo>
                 <source src=video/bg-casual.mp4 type=video/mp4>
             </video>
-            <div class=banner-info><img src=img/logo.png alt="Logo Fardas Guará - Fardas, Dólmãs, Aventais e Uniformes Sob Medida" title="Fardas Guará - Fardas, Dólmãs, Aventais e Uniformes Sob Medida" width=67 height=auto>
-                <h1 class=banner-title>Aventais Personalizados</h1>
-                <h3 class=banner-description>Pra curtir do seu jeito</h3>
+            <div class=banner-info>
+                <h1 class=banner-title>FMC Construções</h1>
+                <h3 class=banner-description>você sonha, nós construimos!</h3>
             </div>
         </article>
     </section>

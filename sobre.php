@@ -20,7 +20,7 @@
             <video autoplay=autoplay loop=loop muted nodownload preload=auto playsinline class=VideoSobre>
                 <source src=video/home.mp4 type=video/mp4 >
             </video>
-            <div class=banner-info>
+            <div class="banner-info col-md-6">
                 <h2>Nós somos a</h2>
                 <h1 class=banner-title>FMC Construções</h1>
                 <h3 class=banner-description>você sonha, nós construimos!</h3>

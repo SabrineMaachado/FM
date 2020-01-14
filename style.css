@@ -19,10 +19,10 @@
 
 /* contato */
 
-bannercontato{
+.topo-contato{
     height: 100vh;
     color: #fff;
-    background-image: url(imagem/slider1.jpg);
+    background-image: url(imagem/slide3.jpg);
     background-attachment: fixed;
     background-clip: border-box;
     background-origin: border-box;
@@ -194,4 +194,4 @@ fieldset{
     padding-right: 1.1rem;
     }
     }
-    
+  

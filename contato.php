@@ -14,44 +14,14 @@
 
     <?php include_once 'header.php'; ?>
     <main class=container-fluid>
-        <section class="row banner-container">
-            <article class="col-12 topo-contato">
-                <div class=bannercontato>
-                    <h1 class=banner-title>Contato | FMC Construções</h1>
-                    <h3 class=banner-description>Você sonha, nós construimos</h3>
+    <section class="banner-container row">
+            <article class="topo-contato col-md-12">
+                <div class="banner-info col-lg-6">
+                    <h1 class="banner-title col-lg-12">Contato | FMC Construções</h1>
+                    <h3 class=banner-description>Entre em contato e solicite seu orçamento!</h3>
                 </div>
-            </article>
+            </article>  
         </section>
-        <section class="row contato">
-            <h2 class=col-12><strong>Entre em Contato e Solicite Seu Orçamento</strong></h2>
-            <article class="col-12 contato-det col-md-12 contato-cotacao offset-md-2">
-                <h4 id=cotacao-online-form>Orçamento Online</h4>
-                <div class=contato-form-div>
-                    <form action=https://FMCConstrucao.com/mensagem-enviada method=post><small>Envie seus dados e retornamos em breve!</small>
-                        <br>
-                        <label for=nome>Nome*</label>
-                        <br>
-                        <input id=nome name=nome placeholder=" Insira seu nome" required>
-                        <br>
-                        <label for=email>email*</label>
-                        <br>
-                        <input id=email name=email placeholder=" Insira seu email" required type=email>
-                        <br>
-                        <label for=tel>Telefone</label>
-                        <br>
-                        <input id=tel name=tel placeholder=" Insira seu DDD + telefone" type=number>
-                        <br>
-                        <input id=fonte name=fonte placeholder=" Google, Insta, Indicação...">
-                        <br>
-                        <label for=mensagem>Mensagem</label>
-                        <br>
-                        <textarea id=mensagem cols=30 name=mensagem placeholder=" Insira sua mensagem" resize=vertical rows=10></textarea>
-                        <br>
-                        <input type=submit value=Enviar>
-                    </form>
-                </div>
-            
-        </section>  
     </main>
 <?php include_once 'footer.php'; ?>
 

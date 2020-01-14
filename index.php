@@ -4,7 +4,7 @@
 <head>
     <?php include_once 'head.php'; ?>
     <title>FMC Construções</title>
-    <!-- <link rel=canonical href=https://FMC.com.br> -->
+
     <meta name=title content="Reforma & Construção | FMC Construção">
     <meta name=description content="Constução, Reforma, Hidraúlica, Eletrica">
     <meta name=keywords content="construção, manutenção, reforma, hidraúlica, elétrica, Pintura, reforma de casas, manutenção predial, manutenção de empresas">
@@ -25,11 +25,11 @@
     <section class="display row">
         <article class="col-md-12" > 
             <div class="bloco2 col-md-12"> 
-                <h1 >A FMC trabalhamos com: </h1>
+                <h1 > em Gesso Liso • Divisórias em DryWall  • Instalação Hidraúlica  • Elétrica </h4>
+            </div> A FMC trabalhamos com: </h1>
                 <h4>Construção de Galpão  •  Reforma Geral  •  Muros  • Pintura •
             Reforma de Galpão  • Pintura em Faxada  • Manuteção em condominios •
-        Acabamento em Gesso Liso • Divisórias em DryWall  • Instalação Hidraúlica  • Elétrica </h4>
-            </div> 
+        Acabamento
             <div class="blocoIcons col-lg-12">
                 <i class="fas fa-wrench"> </i>
                 <i class="fas fa-home"></i>

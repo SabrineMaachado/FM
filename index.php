@@ -63,9 +63,9 @@
                             <br>
                             <input type=submit value=Enviar>
                         </form>
+                    </div>
                 </div>
-                </div>
-        </article><span class=clearfix></span>
+        </article>
     </section>
 </main>
 <?php include_once 'footer.php'; ?>

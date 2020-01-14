@@ -65,6 +65,8 @@ bannercontato{
 .card-info{
     text-align: center;
     color: #fff;
+    margin: 5em;
+
     
 }
 
@@ -152,9 +154,9 @@ fieldset{
 
 
 /* Sobre */
-VideoSobre{ 
-    width: 100vh;
-    height: 100%;
+.VideoSobre{ 
+    width: 100%;
+  
     
 }
 

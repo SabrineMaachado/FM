@@ -16,20 +16,20 @@
     <main class=container-fluid>
         <section class="banner-container row">
             <article class="topo-home col-md-12">
-                <div class="banner-info col-lg-6">
-                    <h1 class=banner-title>FMC Construções</h1>
-                    <h3 class=banner-description>Você sonha, nós construímos!</h3>
+                <div class="banner-info col-md-12">
+                    <h1 class="banner-title  col-md-12" >FMC Construções</h1>
+                    <h3 class="banner-description col-md-12">Você sonha, nós construímos!</h3>
                 </div>
             </article>  
         </section>
     <section class="display row">
         <article class="col-md-12" > 
             <div class="bloco2 col-md-12"> 
-                <h1 > em Gesso Liso • Divisórias em DryWall  • Instalação Hidraúlica  • Elétrica </h4>
-            </div> A FMC trabalhamos com: </h1>
+                <h1 >A FMC trabalha com: </h1>
                 <h4>Construção de Galpão  •  Reforma Geral  •  Muros  • Pintura •
             Reforma de Galpão  • Pintura em Faxada  • Manuteção em condominios •
-        Acabamento
+        Acabamento em Gesso Liso • Divisórias em DryWall  • Instalação Hidraúlica  • Elétrica </h4>
+            </div> 
             <div class="blocoIcons col-lg-12">
                 <i class="fas fa-wrench"> </i>
                 <i class="fas fa-home"></i>

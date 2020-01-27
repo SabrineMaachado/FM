@@ -17,6 +17,37 @@
     display: inline-block;
 }
 
+@media only screen and (max-device-width: 768px){
+	.topo-home{
+		background-attachment: scroll;
+	}
+}
+
+/* sobre */
+
+.topo-sobre {
+    height: 100vh;
+    color: #fff;
+    background-image: url(imagem/sobrecapa.jpg);
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    border-radius: unset;
+    display: inline-block;
+}
+
+@media only screen and (max-device-width: 768px){
+	.topo-sobre{
+		background-attachment: scroll;
+	}
+}
+
 /* contato */
 
 .topo-contato{
@@ -37,24 +68,31 @@
 
 }
 
+@media only screen and (max-device-width: 768px){
+	.topo-contato{
+		background-attachment: scroll;
+	}
+}
+
 .banner-info {
-    left: 25em;
-    /* padding: 50px 20px 80px; */
-    text-align: center;
-    z-index: 2;
     position: absolute;
-    top: 15em;
+        bottom: 0;
+        left: 0;
+    padding: 50px 20px 80px 20px;
+    text-align: left;
+    z-index: 9;
     color: #fff;
 }
 
 .banner-title{
     color: #fff   ;
-	font-size: 52pt !important;
+	font-size: 42pt ;
 	text-transform: uppercase;
 }
 .banner-description{
-	font-size: 30pt !important;
+	font-size: 30pt !;
 }
+
 /* DISPLAY > CARDS */
 .card{
 	height: 100vh;

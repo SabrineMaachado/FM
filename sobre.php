@@ -15,18 +15,15 @@
 </head>
 <?php include_once 'header.php'; ?>
 <main class=container-fluid>
-    <section class="banner-container row">
-        <article class="col-12">
-            <video autoplay=autoplay loop=loop muted nodownload preload=auto playsinline class=VideoSobre>
-                <source src=video/home.mp4 type=video/mp4 >
-            </video>
-            <div class="banner-info col-md-6">
-                <h2>Nós somos a</h2>
-                <h1 class=banner-title>FMC Construções</h1>
-                <h3 class=banner-description>você sonha, nós construimos!</h3>
-            </div>
-        </article>
-    </section>
+<section class="banner-container row">
+            <article class="topo-sobre col-md-12">
+                <div class="banner-info col-md-12">
+                    <h2 class="banner-title  col-md-12" >Nós somos a</h2>
+                    <h1 class="banner-title  col-md-12" >FMC Construções</h1>
+                    <h3 class="banner-description col-md-12">Você sonha, nós construímos!</h3>
+                </div>
+            </article>  
+        </section>
 </main>
 <?php include_once 'footer.php'; ?>
 

@@ -17,36 +17,15 @@
     display: inline-block;
 }
 
+
+
 @media only screen and (max-device-width: 768px){
 	.topo-home{
 		background-attachment: scroll;
 	}
 }
 
-/* sobre */
 
-.topo-sobre {
-    height: 100vh;
-    color: #fff;
-    background-image: url(imagem/sobrecapa.jpg);
-    background-attachment: fixed;
-    background-clip: border-box;
-    background-origin: border-box;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    border-radius: unset;
-    display: inline-block;
-}
-
-@media only screen and (max-device-width: 768px){
-	.topo-sobre{
-		background-attachment: scroll;
-	}
-}
 
 /* contato */
 
@@ -231,5 +210,24 @@ fieldset{
     padding-left: 1.1rem;
     padding-right: 1.1rem;
     }
+    }
+
+
+    .capa{
+        height: 100vh;
+        color: #fff;
+        background-image: url(imagem/sobrecapa.jpg);
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-origin: border-box;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        border-radius: unset;
+        display: inline-block;
+
     }
   

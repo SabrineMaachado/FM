@@ -1,3 +1,5 @@
+/* home  */
+
 .topo-home {
     height: 100vh;
     color: #fff;
@@ -14,10 +16,23 @@
     border-radius: unset;
     display: inline-block;
 }
-bannercontato{
+
+
+
+@media only screen and (max-device-width: 768px){
+	.topo-home{
+		background-attachment: scroll;
+	}
+}
+
+
+
+/* contato */
+
+.topo-contato{
     height: 100vh;
     color: #fff;
-    background-image: url(imagem/slider1.jpg);
+    background-image: url(imagem/sobrecapa.jpg);
     background-attachment: fixed;
     background-clip: border-box;
     background-origin: border-box;
@@ -32,42 +47,72 @@ bannercontato{
 
 }
 
+@media only screen and (max-device-width: 768px){
+    .topo-contato{
+        background-attachment: scroll;
+	}
+}
+
 .banner-info {
-    left: 25em;
-    /* padding: 50px 20px 80px; */
-    text-align: center;
-    z-index: 2;
     position: absolute;
-    top: 15em
+    bottom: 0;
+        left: 0;
+        padding: 50px 20px 80px 20px;
+    text-align: left;
+    z-index: 9;
+    color: #fff;
 }
 
 .banner-title{
-	font-size: 52pt !important;
+    color: #fff   ;
+	font-size: 42pt ;
 	text-transform: uppercase;
 }
+
 .banner-description{
-	font-size: 30pt !important;
+    font-size: 30pt !;
+}
+
+@media  screen and (max-width:575.99px){
+
+    .banner-title  {
+       font-size: 27pt;
+    }
+    .banner-description {
+        font-size: 20pt;
+    }
+
 }
 /* DISPLAY > CARDS */
 .card{
-	height: 100vh;
+    height: 100vh;
 	color: #fff;
     border-radius: none;
     text-align: center;
+    font-size: 27pt;
 }
 .card-info{
-	position: absolute;
-        bottom: 20em;
-        left: 35em;
-	padding: 50px 20px 50px 20px;;
     text-align: center;
-    color: #000;
+    color: #fff;
+    font-size: 20pt;
+
     
 }
 
 .card-title{
-	font-size: 24pt !important;
 	text-transform: uppercase;
+    color: #ffff;
+}
+
+@media screen and (max-width:575.99px){
+
+    .card-title   {
+       font-size: 27pt;
+    }
+    .card-info {
+        font-size: 12pt;
+    }
+
 }
 .card-description{
 	font-size: 18pt !important;
@@ -77,10 +122,39 @@ bannercontato{
 
 /* Bloco2 */
 
-bloco2{
+.bloco2{
+    text-align: center;
+    margin: 2em;   
+}
+
+@media  screen and (max-width:575.99px){
+
+    .bloco2 h1   {
+       font-size: 27pt;
+    }
+    .bloco2 h4 {
+        font-size: 15pt;
+    }
+
+}
+
+/* icone bloco 2 */
+
+.blocoIcons{
+    color: #000;
+    font-size: 41px;
+    margin: 1em;
     text-align: center;
 }
 
+@media  screen and (max-width:575.99px){
+
+    .blocoIcons   {
+       font-size: 27pt;
+    }
+   
+
+}
 #Areas{
 	background-image: url('imagem/slide5.jpg');
 	background-attachment: fixed;
@@ -105,11 +179,14 @@ bloco2{
 /* FOOTER */
 footer{
 	background-color: #ffff;
-	color: grey;
+	color: #000;
 	/*padding: 200px 50px 50px 50px;*/
 	font-size: 16pt !important;
 	font-weight: normal;
-	font-family: 'Poiret One', cursive;
+}
+footer a {
+    color:#000;
+
 }
 .footer{
 	text-align: center;
@@ -133,3 +210,140 @@ fieldset{
 	width: min-content;
     margin: auto;
 }
+
+
+/* Sobre */
+.VideoSobre{ 
+    width: 100%;
+}
+
+
+/* Trabalhos */
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+
+
+    .capa{
+        height: 100vh;
+        color: #fff;
+        background-image: url(imagem/sobrecapa.jpg);
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-origin: border-box;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        border-radius: unset;
+        display: inline-block;
+
+    }
+  
+/* galeria  */
+
+.galeria{
+    height: auto;
+    min-height: 500px;
+    width: 100%;
+    display: block;
+  }
+  
+  .grid {
+    margin: 0 auto;
+  }
+  
+  .grid-sizer, .grid .item {
+      width: 33%;
+      display: block;
+      float: left;
+    padding: 8px;
+  }
+  
+  /* Estilos Parallax */
+  
+  .grid .item{
+      opacity: 0;
+      transform: translateX(2rem);
+      transition: all 0.5s linear;
+  }
+  
+  .grid .item.show-items{
+      opacity: 1;
+      transform: translateX(0);
+  }
+  
+  /* Fin Parallax*/
+  
+  .grid .item a,.grid .item img {
+      max-width: 100%;
+      display: block;
+      border: none;
+      outline: none;
+  }
+  
+  .pswp__caption__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  @media screen and (max-width: 767.99px){
+
+    .grid-sizer, .grid .item {
+        width: 49%;
+    }
+  
+  }
+  
+  @media screen and (max-width:575.99px){
+  
+    .grid-sizer, .grid .item {
+      width: 97%;
+      margin: 10px 5px;
+      padding: 0;
+    }
+  
+    .grid .item a, .grid .item img{
+      margin: 0 auto;
+    }
+  
+  }
+
+
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  

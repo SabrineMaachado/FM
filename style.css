@@ -30,9 +30,9 @@
 /* contato */
 
 .topo-contato{
-    height: 100vh;
+    height: 59vh;
     color: #fff;
-    background-image: url(imagem/sobrecapa.jpg);
+    background-image: url(imagem/slide9.jpg);
     background-attachment: fixed;
     background-clip: border-box;
     background-origin: border-box;
@@ -95,6 +95,7 @@
     text-align: center;
     color: #fff;
     font-size: 20pt;
+    margin-top: 14%;
 
     
 }
@@ -143,7 +144,7 @@
 .blocoIcons{
     color: #000;
     font-size: 41px;
-    margin: 1em;
+    margin: -4px;
     text-align: center;
 }
 
@@ -156,7 +157,7 @@
 
 }
 #Areas{
-	background-image: url('imagem/slide5.jpg');
+	background-image: url('imagem/slide6.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
@@ -271,7 +272,118 @@ fieldset{
         display: inline-block;
 
     }
-  
+/* 
+footer 2 opcao --------------------------------------------------------------------------------------------------------------------------*/
+
+.section_gallery {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.section {
+    padding: 6rem 0;
+}
+.section {
+    padding: 3rem 0;
+}
+.section, body {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+}
+
+.section_gallery__grid__item {
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+
+
+
+.section_footer {
+    background-color: #ffffff   ;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+}
+
+.section_footer__heading {
+    font-family: Lato,sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #f5a637;
+}
+
+.section_footer__open__days {
+    font-family: Lato,sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    font-weight: 900;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.section_footer__open__time {
+    font-family: Playfair Display,serif;
+    font-size: 1.25rem;
+}
+
+.section_footer__open+.section_footer__open {
+    margin-top: 1rem;
+}
+
+.section_footer__copyright {
+    margin-top: 2rem;
+    color:#f5a637;
+    font-size: 12px;
+}
+
+.section_footer__info {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.section_footer__info>li>i {
+    position: absolute;
+    top: .4em;
+    left: 0;
+}
+
+::selection {
+    color: #fff;
+    background-color: #f5a637;
+}
 /* galeria  */
 
 .galeria{
@@ -344,6 +456,152 @@ fieldset{
   }
 
 
-  /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* css trabalhos-------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-  
+
+  /* @media (min-width: 768px) */
+
+.section[data-parallax=scroll] {
+    background-color: transparent;
+}
+.section_welcome {
+    height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.section_welcome__main {
+    height: calc(100vh - 99px * 2);
+}
+
+.section_welcome .text-muted {
+    color: hsla(0,0%,100%,.7)!important;
+}
+.section__preheading {
+    font-family: Lato,sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.section__heading.text-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+.section_welcome__heading {
+    font-size: 5rem;
+}
+.section_welcome .text-muted {
+        color: hsla(0,0%,100%,.7)!important;
+    }
+    .section__subheading.text-center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .section__heading+.section__subheading {
+        margin-top: -1.5rem;
+    }
+    .section_welcome__subheading {
+        margin-bottom: 3rem;
+    }
+    .section__subheading {
+        max-width: 600px;
+        margin-bottom: 2.5rem;
+    }
+    .text-muted {
+        color: #ababab!important;
+    }
+    .text-center {
+        text-align: center!important;
+        font-weight: 700;
+        color: #fff;
+    }
+
+.section__heading {
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+}
+.text-center {
+    text-align: center!important;
+}
+
+/* @media (min-width: 768px) */
+.section_welcome__footer {
+    margin-top: 0;
+}
+.section_welcome__footer {
+    height: 70px;
+    margin-top: 3rem;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.section_welcome__footer__social {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* construcaodeGalpao------------------------------------------------------------------------------------------------------------------------------- */
+
+.construcaodeGalpao{
+    height: 87vh;
+    color: #fff;
+    background-image: url(imagem/slider4.jpg);
+}
+
+/* Botao--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.btn {
+    border-color: #f5a637;
+    background-color: transparent!important;
+    font-family: Lato,sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1rem 2rem; 
+    user-select: none;
+    transition: color .1s;
+    text-align: center;
+    vertical-align: middle;
+        border: 1px solid transparent;
+    border-radius: 0;
+
+}
+
+.btn-primary{
+    color: #212529;
+    border-color: #ed8f0c;
+    background-color: #f39613;
+
+}
+
+.text-white{
+    color: #f5a637;
+    
+
+}
+.btn:hover {
+    text-decoration: none;
+    color: #212529;
+}
+
+.p1{
+    width: 12%;
+    margin: 3%;
+}
+
+.p2{
+    margin: 3%;
+    margin-left: 5%;
+    width: 22%;
+}
+
+.p3{
+    margin: 3%;
+}

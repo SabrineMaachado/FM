@@ -13,7 +13,9 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
 </head>
+
     <?php include_once 'header.php'; ?>
+    
     <main class=container-fluid>
         <section class="banner-container row">
             <article class="topo-home col-md-12">
@@ -26,27 +28,21 @@
     <section class="display row">
         <article class="col-md-12" > 
             <div class="bloco2 col-md-12"> 
-                <h1 >A FMC trabalha com: </h1>
-                <h4>Construção de Galpão  •  Reforma Geral  •  Muros  • Pintura •
-            Reforma de Galpão  • Pintura em Faxada  • Manuteção em condominios •
-        Acabamento em Gesso Liso • Divisórias em DryWall  • Instalação Hidraúlica  • Elétrica </h4>
+                <h1 > Parceiros </h1>
             </div> 
             <div class="blocoIcons col-lg-12">
-                <i class="fas fa-wrench"> </i>
-                <i class="fas fa-home"></i>
-                <i class="fas fa-paint-roller"></i>
-                <i class="fab fa-houzz"></i>
-                <i class="fas fa-plug"></i>
-                <i class="fas fa-hammer"></i>
+               <img class="p1" src="imagem/p1.jpg">
+               <img class="p3" src="imagem/p3.png">
+               <img class="p2" src="imagem/p2.png">
             </div>
         </article>
         <article class="card col-md-12" id=Areas>
                 <div class="card-info ">
-                    <h1 class=card-title>Faça um<br> orçamento!</h1>
-                    <div class=contato-form-div>
-                        <form action=https://FMCConstrucao.com/mensagem-enviada method=post><small>Envie seus dados e retornamos em breve!</small>
-                            <br>
-                            <label for=nome>Nome*</label>
+                    <h1 class=card-title>Faça um<br> orçamento! em tempo real!</h1>
+                    <div class="contato-form-div text-center">
+                        <form action=https://FMCConstrucao.com/mensagem-enviada method=post><small>Clique aqui e entre em contato via whatsaap</small>
+                            <!-- <br>
+                            <label for=nome >Nome*</label>
                             <br>
                             <input id=nome name=nome placeholder=" Insira seu nome" required>
                             <br>
@@ -60,9 +56,14 @@
                             <br>
                             <label for=mensagem>Mensagem</label>
                             <br>
-                            <textarea id=mensagem cols=30 name=mensagem placeholder=" Insira sua mensagem" resize=vertical rows=5></textarea>
+                            <textarea id=mensagem cols=30 name=mensagem placeholder=" Insira sua mensagem" resize=vertical rows=3></textarea>
                             <br>
-                            <input type=submit value=Enviar>
+                            <input  class="btn btn-primary text-white" type=submit value=Enviar> -->
+                            <div class="text-center">
+                                <a href=https://wa.me/5511985535388  target=_blank class="btn btn-primary text-white">
+                                    Entre em contato 
+                                </a>
+                            </div>   
                         </form>
                     </div>
                 </div>

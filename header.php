@@ -7,11 +7,27 @@
             <li class="nav-item active">
               <a class="nav-link" href="Index.php">Home</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="sobre.php">Sobre</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="Trabalhos.php">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Nossos Trabalhos
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="ConstruçãodeGalpão.php">Construção de Galpão</a>
+                  <a class="dropdown-item" href="ReformaGeral.php"> Reforma Geral</a>
+                  <a class="dropdown-item" href="Muros.php">Muros</a>
+                  <a class="dropdown-item" href="Pintura.php">Pintura </a>
+                  <a class="dropdown-item" href="condominios.php">Manuteção em condominios</a>
+                  <a class="dropdown-item" href="GessoLiso.php">Acabamento em Gesso Liso</a>
+                  <a class="dropdown-item" href="DryWall.php">Divisórias em DryWall </a>
+                  <a class="dropdown-item" href="Hidraúlica.php">Hidraúlica </a>
+                  <a class="dropdown-item" href="Elétrica.php">Elétrica </a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contato.php">Contato</a>

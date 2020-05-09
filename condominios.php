@@ -3,7 +3,7 @@
 
 <head>
     <?php include_once 'head.php'; ?>
-    <title>FMC Construções</title>
+    <title>FMC </title>
     <!-- <link rel=canonical href=https://FMC.com.br> -->
     <meta name=title content="Reforma & Construção | FMC Construção">
     <meta name=description content="Constução, Reforma, Hidraúlica, Eletrica">
